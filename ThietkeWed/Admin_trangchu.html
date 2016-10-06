@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" href="js/jquery-1.11.3.min.js"> </script>
+	<script type="text/javascript" href="js/bootstrap.min.js"> </script>
+	<script type="text/javascript" src="../link/lk.js"></script>
+    <style type="text/css">
+        .example{
+            margin: 20px;
+        }
+    </style>
+	<script language="javascript">
+			function DangNhap()
+			{
+				location = "DangNhap.html"
+			}
+        </script>
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+		<img src= "images/tieude1.png" alt="">
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" onclick="DangNhap()">Đăng xuất</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<img src="images/SPKT.png" alt="" />
+ <div class="container">
+    <div class="col-md-2">
+    	 <div  class="btn-group-vertical">
+		 <button type="button" class="btn btn default"><a href="Admin_themnguoidung.html"> Quản lí người dùng</a></button>
+		 </br>
+		 <button type="button" class="btn btn default"><a href="Admin_chinhsua&xoa.html"> Quản lí biểu mẫu</a></button>
+		 </div>
+	</div>
+	 <div id="Center_Div"> 
+			<ul>
+  <strong>CÁC THÔNG BÁO MỚI</strong>
+<ol>
+</br>
+  <li> Chưa đăng ký đề tài: Tài khoản chưa đăng ký đề tài NCKH</li></br>
+  <li> Đang chờ phê duyệt thực hiện: Đề tài đang được chờ phê duyệt thực hiện</li></br>
+   <li> Đã được phê duyệt thực hiện: Đề tài đã được phê duyệt tiến hành ký hợp đồng với phòng KH&CN</li></br>
+ <li> Đang chờ gia hạn: Đề tài chờ phòng KH&CN hoặc giáo viên hưỡng dẫn duyệt</li></br>
+ <li> Đã gia hạn: Đề tài được phòng KH&CN hoặc giáo viên hưỡng dẫn duyệt gia hạn</li></br>
+ <li> Đang chờ duyệt hủy: Đề tài chờ phòng KH&CN hoặc giáo viên hưỡng dẫn duyệt</li></br>
+ <li> Đã hủy đề tài: Đề tài được phòng KH&CN hoặc giáo viên hưỡng dẫn duyệt</li></br>
+ <li> Đang chờ nghiệm thu: Đề tài nằm trong danh sách chờ nghiệm thu</li></br>
+ <li> Đã nghiệm thu: Đề tài đã nghiệm thu</li></br>
+</ol>
+</ul>
+	</div>
+ </div> 
+</body>
+</html>

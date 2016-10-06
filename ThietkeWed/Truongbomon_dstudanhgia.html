@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" href="js/jquery-1.11.3.min.js"> </script>
+	<script type="text/javascript" href="js/bootstrap.min.js"> </script>
+    <style type="text/css">
+        .example{
+            margin: 20px;
+        }
+    </style>
+	<script language="javascript">
+			function DangNhap()
+			{
+				location = "DangNhap.html"
+			}
+			</script>
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+		<img src= "images/tieude1.png" alt="">
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"onclick="DangNhap()">Đăng xuất</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<img src="images/SPKT.png" alt="" />
+ <div class="container">
+    <div class="col-md-2">
+    	 <div  class="btn-group-vertical">
+		 <button type="button" class="btn btn default" ><a href="Truongbomon_dangkiKPI.html"> Đăng kí KPI</a></button>
+		 </br>
+		 <button type="button" class="btn btn default"><a href="Truongbomon_dsKPI.html"> Danh sách KPI giáo viên</a></button>
+		 </br>
+		 <button type="button" class="btn btn default"><a href="Truongbomon_dstudanhgia.html"> Danh sách tự đánh giá</a></button>
+		  </br>
+		 <button type="button" class="btn btn default"><a href= "Truongbomon_phancong.html"> Phân công công việc</a></button>
+		 </div>
+	</div>
+	<div id="Center_Div"> 
+  <form style=" border: groove;width:700px; margin-left:15px; margin-right:15px;">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Tên giảng viên</th>
+                  <th>Chi tiết</th>
+				  <th>Duyệt</th>
+                  <th>Nộp</th>
+	<th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Nguyễn Văn A</td>
+                  <td><button type="button" class="btn btn default">Chi tiết</button></td>
+                  <td><button type="button" class="btn btn default">Duyệt</button></td>
+				  <td><button type="button" class="btn btn default">Nộp</button></td>
+                </tr>
+				<tr>
+                  <td>Trần Văn B</td>
+                  <td><button type="button" class="btn btn default">Chi tiết</button></td>
+                  <td><button type="button" class="btn btn default">Duyệt</button></td>
+				  <td><button type="button" class="btn btn default">Nộp</button></td>
+                </tr>
+				<tr>
+                  <td>Nguyễn Thị C</td>
+                  <td><button type="button" class="btn btn default">Chi tiết</button></td>
+                  <td><button type="button" class="btn btn default">Duyệt</button></td>
+				  <td><button type="button" class="btn btn default">Nộp</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+</form>
+	</br>
+    </div>
+ </div> 
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" href="js/jquery-1.11.3.min.js"> </script>
+	<script type="text/javascript" href="js/bootstrap.min.js"> </script>
+    <style type="text/css">
+        .example{
+            margin: 20px;
+        }
+    </style>
+	<script language="javascript">
+            function load_ajax(){
+                alert('Đã gửi thành công');
+            }
+			function DangNhap()
+			{
+				location = "DangNhap.html"
+			}
+        </script>
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+		<img src= "images/tieude1.png" alt="">
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" onclick="DangNhap()">Đăng xuất</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<img src="images/SPKT.png" alt="" />
+ <div class="container">
+    <div class="col-md-2">
+    	 <div  class="btn-group-vertical">
+		  <button type="button" class="btn btn default" ><a href="Giangvien_dangkiKPI.html"> Đăng kí KPI</a></button>
+		 </br>
+		 <button type="button" class="btn btn default"><a href="Giangvien_capnhat.html"> Cập nhật cá nhân</a></button>
+		 </br>
+		 <button type="button" class="btn btn default"><a href="Giangvien_tudanhgia.html"> Tự đánh giá cá nhân</a></button>
+		 </div>
+	</div>
+	 <div id="Center_Div"> 
+  <form style=" border: groove;width:700px; margin-left:15px; margin-right:15px;">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Đã hoàn thành</th>
+                  <th>Chưa hoàn thành</th>
+				  <th>Tỉ lệ hoàn thành(%)</th>
+                  <th>Lí do</th>
+				  <th>Hướng khác phục</th>
+	<th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>70</td>
+				  <td>bệnh dột xuất</td>
+				  <td>Đã khắc phục</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+</form>
+	</br>
+	 <input type="button" class= "btn btn default" name="clickme" id="clickme" onclick="load_ajax()" value="Gửi"/>
+    </div>
+ </div> 
+</body>
+</html>
